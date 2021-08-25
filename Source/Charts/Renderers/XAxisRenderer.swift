@@ -165,7 +165,7 @@ open class XAxisRenderer: NSObject, AxisRenderer
         let labelRotatedSize = labelSize.rotatedBy(degrees: axis.labelRotationAngle)
         
         axis.labelWidth = labelWidth
-        axis.labelHeight = labelHeight
+        axis.labelHeight = labelHeight * 2
         axis.labelRotatedWidth = labelRotatedSize.width
         axis.labelRotatedHeight = labelRotatedSize.height
     }
